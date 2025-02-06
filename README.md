@@ -7,7 +7,7 @@ Este projeto foi desenvolvido como parte do meu portfólio para demonstrar o uso
 ## Descrição
 
 O projeto consiste em:
-- Uma classe abstrata `Funcionario`, que define atributos comuns (nome, salário, cargo) e implementa a interface `Bonus`.
+- Uma classe abstrata `Funcionario`, que define atributos comuns (nome, salário, setor) e implementa a interface `Bonus`.
 - Duas subclasses: `Gerente` e `Vendedor`, que herdam de `Funcionario` e implementam o método `calcularBonus()` de forma específica.
 - Uma interface `Bonus`, que define o contrato para o cálculo do bônus.
 - Uma classe `CalculadoraBonus`, que usa polimorfismo para calcular e exibir o bônus de qualquer funcionário.
